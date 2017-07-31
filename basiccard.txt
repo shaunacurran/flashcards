@@ -1,0 +1,20 @@
+{
+  "cards": [
+    {
+      "front": "How many Olympian Gods are there?",
+      "back": "12"
+    },
+    {
+      "front": "What was Erebus the god of?",
+      "back": "Darkness"
+    },
+    {
+      "front": "Who was the rumored father of Alexander the Great?",
+      "back": "Zeus"
+    },
+    {
+      "front": "Who was the son of Phoebe and Hermes?",
+      "back": "Pan"
+    }
+  ]
+}

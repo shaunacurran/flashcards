@@ -1,0 +1,9 @@
+{
+  "cards": [
+    {
+      "fullText": "George",
+      "cloze": "George",
+      "partial": ""
+    }
+  ]
+}
