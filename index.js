@@ -9,7 +9,7 @@ inquirer.prompt([
     {
         type: 'list',
         name: 'userInput',
-        message: "Which type of card would you like to create?",
+        message: "What kind of card do you want?",
         choices: ['basic','cloze']
     }
 ]).then(function(cardType){
@@ -28,16 +28,16 @@ function generateBasic(){
         {
         type: 'text',
         name: 'frontText',
-        message: 'What is on the front?'
+        message: 'What should be on the front?'
         },
         {
         type: 'text',
         name: 'backText',
-        message: 'What is on the back?'
+        message: 'What should be on the back?'
         }
     ]).then(function(info){
         if(!info){
-            console.log('No Answer');
+            console.log('Nada');
         }else{
             //console.log('Basic Works');
             //console.log(info.frontText);
@@ -97,11 +97,9 @@ function generateCloze(){
         }
     ]).then(function(info){
         if(!info){
-            console.log('No Answer');
+            console.log('Nada');
         }else{
-            //console.log('Cloze Works');
-            //console.log(info.fullText);
-            //console.log(info.cloze);
+            
 
             var newClozeCard = new ClozeCard(info.fullText, info.cloze);
 
@@ -140,13 +138,6 @@ function generateCloze(){
 
            
 
-            // var clozeList = {
-            //     cards: []
-            // };
-
-            // clozeList.cards.push(newClozeCard);
-
-            // console.log(clozeList.cards);
 
         }
     });

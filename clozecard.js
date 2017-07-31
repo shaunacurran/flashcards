@@ -14,20 +14,5 @@ var ClozeCard = function(text,cloze){
 
 };
 
-// function addCloze(text,cloze){
 
-// }
-
-// var sentence = 'Gge Washington is the first President';
-// var cloze = 'George Washington'
-// var clozeLen = cloze.length
-
-// var value = sentence.indexOf(cloze);
-// console.log(clozeLen);
-// console.log(value);
-// console.log(sentence.replace(cloze,'').trim());
-
-// var card1 = new ClozeCard('dinosaurs once roamed this earth', 'dinosaurs');
-
-// console.log(card1);
 module.exports = ClozeCard;

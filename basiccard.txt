@@ -15,6 +15,14 @@
     {
       "front": "Who was the son of Phoebe and Hermes?",
       "back": "Pan"
+    },
+    {
+      "front": "What god is Thursday named after?",
+      "back": "Thor"
+    },
+    {
+      "front": "Who is the Prime Minister of Canada?",
+      "back": "Justin Trudeau"
     }
   ]
 }
